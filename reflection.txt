@@ -1,0 +1,27 @@
+(a) Three biggest differences between Python and another programming language:
+1. Python uses clean indentation (4 spaces) instead of curly braces ({}) to define code blocks.
+2. Python uses dynamic typing without requiring explicit type declarations (like int or String) for variables.
+3. Python statements do not require semicolons at the end of lines.
+
+(b) One bug I hit and how I fixed it:
+I initially encountered a TypeError when trying to perform arithmetic directly on the raw input() return value. I fixed this by explicitly wrapping the input call inside float() conversion logic.
+
+Sample Run:
+How many students? 2
+Student 1 name: Alex
+  Score 1: 85
+  Score 2: 72.5
+  Score 3: 90
+Student 2 name: Bea
+  Score 1: 60
+  Score 2: 65
+  Score 3: 70
+
+===== CLASS REPORT =====
+Name         Average   Grade
+------------------------------
+Alex           82.50       A
+Bea            65.00       C
+
+Highest: 82.50    Lowest: 65.00    Class mean: 73.75
+Top 3: Alex, Bea
